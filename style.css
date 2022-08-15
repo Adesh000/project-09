@@ -231,3 +231,73 @@ div form button {
   padding: 10px 30px;
   border-radius: 20px;
 }
+
+@media screen and (max-width: 640px){
+  header {
+    
+  }
+
+  nav {
+    width: 300px;
+    font-size: 10px;
+  }
+  .logo {
+    width: 100px;
+  }
+  .header-text{
+    font-size: 15px;
+  }
+
+  .header-image {
+    width: 200px;
+    top: 300px;
+  }
+
+  .companies {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 80px;
+  }
+
+  .cards{
+    flex-wrap: wrap;
+  }
+  .blog-cards {
+    flex-direction: column;
+    width: 700px;
+  }
+
+  .blog-card {
+    margin: 50px 0;
+  }
+  .faq-content h2 {
+    font-size: 20px;
+  }
+  .faq-content h4 {
+    font-size: 10px;
+  }
+  .faq-image img {
+    width: 300px;
+  }
+  .download-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .download-content h1 {
+    font-size: 20px;
+  }
+
+  .footer-section {
+    height: auto;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 40px;
+  }
+}
